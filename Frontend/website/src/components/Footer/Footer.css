@@ -1,0 +1,29 @@
+.f-container {
+    justify-content: space-between;
+}
+
+.f-left {
+    gap: 1.5rem;
+}
+
+.f-menu {
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+
+.f-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.smalltxt{
+    color: #008b0c;
+  font-size: 0.9rem;
+}
+
+.primaryTexts{
+    color: #008000;
+  font-weight: bold;
+  font-size: 2rem;
+}

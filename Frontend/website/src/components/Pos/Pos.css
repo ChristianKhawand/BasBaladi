@@ -1,0 +1,81 @@
+.poscontainer {
+    padding: 75px 0;
+    margin: 0 auto;
+    max-width: 1140px; /* Changed width to max-width */
+    position: relative; /* Added position relative */
+  }
+  
+  .posh1 {
+    position: relative;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 44px;
+    color: green;
+  }
+  
+  .posgallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+  }
+  
+  .positem {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: flex 0.8s ease;
+  }
+  
+  .positem:hover {
+    flex: 7;
+  }
+  
+  .positem-1 {
+    background-image: url('../images/ber.avif');
+  }
+  
+  .positem-2 {
+    background-image: url('../images/grape.jpg');
+  }
+  
+  .positem-3 {
+    background-image: url('../images/pome.png');
+  }
+  
+  .positem-4 {
+    background-image: url('../images/pine.jpg');
+  }
+  
+  .positem-5 {
+    background-image: url('../images/wate.jpg');
+  }
+  
+  .posbutton {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+  }
+  
+  .posbutton:hover {
+    background-color: darkgreen; /* Change background color on hover */
+  }
+  
+  .posbutton:active {
+    transform: translateY(2px) scale(0.95); /* Add a slight downward movement and scale down on click */
+    background-color: #4CAF50; /* Change background color when clicked */
+  }
+  
+  .posbutton:focus {
+    outline: none; /* Remove focus outline */
+  }
+  

@@ -1,0 +1,83 @@
+/* imports */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+/* reset */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+  height: 500px;
+  width: 500px;
+  position: relative;
+  margin: 50px auto;
+  border-radius: 50%;
+  border: 0.55em solid green;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease; /* Add transition duration and easing */
+}
+
+
+.bg:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.35);
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.content-wrapper {
+  height: 400px;
+  width: 400px;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  will-change: transform;
+  backface-visibility: hidden;
+  transition: all 1.5s cubic-bezier(0.4, 0.6, 0, 1.2);
+  width: 400px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transform: translateY(175px);
+}
+
+.content-title {
+  font-size: 3.8em;
+}
+.green-rectangle {
+  background-color: green;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  top: 20px; /* Adjust as needed for the desired position */
+}
+
+.carousel-title {
+  color: white;
+  font-size: 2em;
+}
